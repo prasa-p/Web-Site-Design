@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		<link href="css/stylesheet.css"
+    	type="text/css"
+    	rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="header">
+			<h1>Club Registration Form</h1>
+			<h4>Welcome to the regitration page for the youth club. You can reserve courts (Squash, Badminton, and Tennis) for different time slots. Please fill both the forms given below. Incomplete forms may be rejected. </h4>
+		</div>
+		<hr/>
+
+		<div class="maincontainer">
+		
+			<form class="registration" method="get">
+				<h3> Registration Form </h3>
+				<fieldset>
+					<legend>Contact Information:</legend>
+					<p>
+						<label>Name:
+						<input type="text" name="player_name" required>
+						</label> 
+					</p>
+
+					<p>
+						<label>Phone: 
+						<input type="tel" name="phone_number">
+						</label>
+					</p>
+
+					<p>
+						<label>Email Addr:
+						<input type="email" name="email_address">
+						</label>
+					</p>
+				</fieldset>
+
+				<fieldset class="radiobuttons">
+					<legend>Select your age range:</legend>
+					<p><label> 10 or younger <input type="radio" name="age" required value="<10"> </label></p>
+					<p><label> 10 to 18 <input type="radio" name="age" required value="10-18"> </label></p>
+					<p><label> Over 18 <input type="radio" name="age" required value=">18"> </label></p>
+				</fieldset>
+
+				<fieldset>
+					<legend>Select the sports you are interested in:</legend>
+					<p><label> Badminton <input type="checkbox" name="Badminton" value="BT"> </label></p>
+					<p><label> Squash <input type="checkbox" name="Hockey" value="SQ"> </label></p>
+					<p><label> Tennis <input type="checkbox" name="Tennis" value="TN"> </label></p>
+				</fieldset>
+
+				<fieldset>
+					<legend>Time:</legend>
+					<p>
+						<label>Date / Time for reserving the courts
+						<input type="datetime-local" name="pickup_time" required>
+						</label>
+					</p>
+			
+					<p>
+						<label>Time slot
+						<select id="time_slot" name="time_slot">
+							<option value="1" selected="selected">1 hour</option>
+							<option value="2" >2 hours</option>
+							<option value="3" >3 hours</option>
+							<option value="4" >All day</option>
+						</select>
+						</label> 
+					</p>
+				</fieldset>
+
+				<p>
+					<label>Special Requests <br>
+						<textarea name="comments" maxlength="500"></textarea>
+					</label>
+				</p>
+
+			</form>
+
+			<form class="COVID19" method="get">
+				<h3> Vaccination Information </h3>
+				<p>
+					<label>Health Card No:
+					<input type="text" name="health_card" required>
+					</label> 
+				</p>
+
+				<fieldset class="radiobuttons">
+					<legend>Are you fully vaccinated:</legend>
+					<p><label> Yes <input type="radio" name="Vac" required value="Y"> </label></p>
+					<p><label> No <input type="radio" name="Vac" required value="N"> </label></p>
+					<p><label> Exempted <input type="radio" name="Vac" required value="E"> </label></p>
+				</fieldset>
+
+				<fieldset>
+					<legend>Time:</legend>
+					<p>
+						<label>First Dose:
+						<input type="datetime-local" name="pickup_time" required>
+						</label>
+					</p>
+
+					<p>
+						<label>Second Dose:
+						<input type="datetime-local" name="pickup_time" required>
+						</label>
+					</p>
+				</fieldset>
+
+				<p><button>Submit Booking</button></p>
+					
+			</form>
+		</div>
+	</body>
+</html>

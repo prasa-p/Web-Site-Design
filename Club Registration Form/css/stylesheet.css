@@ -1,0 +1,57 @@
+body{
+    color: #665544;
+    background-image: url(../images/backdrop.gif);
+    font-family: Georgia;
+    text-align: center;}
+
+header{
+    text-align: center;
+    width: 80%;
+    margin-top: 50px auto;
+    margin-bottom: 50px auto;
+    text-decoration: underline;
+}
+
+h3{
+    text-align: center;
+}
+.maincontainer{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.registration {
+    float: left;
+    width: 40%;
+    margin: 5% auto;
+    text-align: right;
+    
+}
+
+.COVID19{
+    float: right;
+    width: 40%;
+    margin: 5% auto;
+    text-align: right;
+}
+
+.registration h3 {
+    text-decoration: underline;
+}
+
+.COVID19 h3 {
+    text-decoration: underline;
+}
+
+textarea{
+    width: 300px;
+    height: 100px;
+}
+
+fieldset:hover {color: green;}
+
+fieldset label:active {color:red};
