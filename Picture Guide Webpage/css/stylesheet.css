@@ -1,0 +1,41 @@
+body {
+	color: #665544;
+	background-color: #d4d0c6;
+	background-image: url("../images/backdrop.gif");
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: center;}
+.maincontainer {
+	width: 80%;
+	margin: 0 auto;}
+.header {
+	margin: 40px 0px 20px 0px;}
+.imgdiv {
+	width: 31.3%;
+	float: left;
+	margin: 0%;
+	height: auto;}
+figure {
+	display: block;
+	width: 80%;
+	height: auto;
+	background-color: #e7e3d8;
+	margin: 1%;
+	padding: 9%;
+	text-align: left;}
+figure:hover {
+	background-color: yellow;
+}
+figure img {
+	width: 80%;
+	height: auto;
+	border: 1px solid #d6d6d6;}
+figcaption {
+	background-image: url("../images/icon.png");
+	padding-left: 20px;
+	background-repeat: no-repeat;}
+figcaption:hover{
+	font-weight: bold;
+}
+.imgdiv:active {
+    scale: 2 2;
+}
