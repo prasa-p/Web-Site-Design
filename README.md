@@ -1,4 +1,4 @@
-# Web-Site-Design
+# Web-Site-Projects:
 **List of Web Site Designs**
 1) Book Store Webpage![Book Store Webpage](https://user-images.githubusercontent.com/114443699/203210640-609a9aa0-915e-4b14-bfb3-f25b7457383e.png)
 
